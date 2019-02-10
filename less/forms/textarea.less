@@ -1,0 +1,33 @@
+
+textarea {
+
+  &.form-control {
+    display: block;
+    width: 100%;
+    min-height: 100px;
+    padding: 8px 12px;
+    font-size: 13px;
+    line-height: 1.6;
+    font-family: @font_base;
+    color: @color_body;
+    font-weight: 300;
+    background-color: @color_white;
+    background-clip: padding-box;
+    border: 1px solid @color_white;
+    border-radius: 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    resize: none;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    &:focus {
+      color: @color_body;
+      background-color: @color_white;
+      border-color: @color_white;
+      outline: none;
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+}
